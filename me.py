@@ -28,7 +28,7 @@ hostname = socket. gethostname()
 local_ip = socket.gethostbyname(hostname)
 
 print("Your computer name is: " + hostname, "Your local IP is: " + get_ip(), "Your public IP is: ", ip, sep="\n")
-print(datetime.datetime.now(), "Server started at", get_ip(), ":8000")
+print(datetime.datetime.now(), "Server started at", get_ip(), ":2023")
 print("\n")
 print("Press Ctrl+C to stop the server")
 
